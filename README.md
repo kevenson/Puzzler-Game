@@ -8,6 +8,9 @@ This project is part of [Udacity](https://www.udacity.com "Udacity - Be in deman
 - iTween v2.0.7
 
 
+# Credits
+Skybox: GalaxyBox 1.0 by LemonSpawn
+
 --
 # Bob Loblaw
 ## "If you can describe it, I can build it."
