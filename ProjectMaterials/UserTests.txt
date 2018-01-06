@@ -45,3 +45,18 @@ Starting the game.
 
 This one would be for restarting the game. Very similar panel with the same basic layout, just different text and 
 a 'restart' button
+
+------------------
+
+# User Test #3 - Movement
+Jackie Brown
+--> Issue warning about simulator sickness first
+
+## Please hit the start button....what did you think about the pace or speed of the movement. 
+
+## Are you feeling sick in any way?
+
+## Did you notice any height differences or anything that felt off in the movement?
+
+
+
