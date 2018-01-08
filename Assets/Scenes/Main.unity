@@ -3226,7 +3226,7 @@ MonoBehaviour:
   gainDb: 0
   occlusionEnabled: 0
   playOnAwake: 1
-  sourceClip: {fileID: 8300000, guid: ea7fd1cd08a5f4978a2bd84589bdf195, type: 3}
+  sourceClip: {fileID: 8300000, guid: ed387bf0bf5093d4884c858795cb8ff0, type: 3}
   sourceLoop: 1
   sourceMute: 0
   sourcePitch: 1
@@ -3751,7 +3751,7 @@ MonoBehaviour:
   gainDb: 0
   occlusionEnabled: 0
   playOnAwake: 1
-  sourceClip: {fileID: 8300000, guid: ea7fd1cd08a5f4978a2bd84589bdf195, type: 3}
+  sourceClip: {fileID: 8300000, guid: ed387bf0bf5093d4884c858795cb8ff0, type: 3}
   sourceLoop: 1
   sourceMute: 0
   sourcePitch: 1
@@ -7588,13 +7588,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: GAME OVER!
+  m_Text: YOU WIN!
 --- !u!222 &1493540029
 CanvasRenderer:
   m_ObjectHideFlags: 0

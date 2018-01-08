@@ -11,6 +11,10 @@ This project is part of [Udacity](https://www.udacity.com "Udacity - Be in deman
 # Credits
 Skybox: GalaxyBox 1.0 by LemonSpawn
 Textures/Shaders for Mountains: Grit Buildup Shader by 2Ginge
+
+Audio:
+"Creepy dungeon ambience" by DrMinky: https://freesound.org/people/DrMinky/sounds/166187/
+
 --
 # Bob Loblaw
 ## "If you can describe it, I can build it."
