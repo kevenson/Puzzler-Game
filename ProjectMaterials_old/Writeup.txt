@@ -1,0 +1,47 @@
+My audience is mainly people who would like to learn more about developing VR experiences and are looking for "how-to" information.
+
+Goals:
+1. Write-up provides actionable information regarding how to create a simple VR experience, 
+from start to finish.
+2. Write-up explains how to use Google VR to create experience for Cardboard.
+3. Write-up provides links for further learning. 
+
+Outline:
+
+Intro
+
+Outcomes
+
+Story of the process
+
+User testing outcomes & iteration
+
+Breakdown of final piece
+
+Conclusion
+
+My site: https://kevenson.github.io/UdacityPuzzler/
+
+----DRAFT-----
+https://d17h27t6h515a5.cloudfront.net/topher/2016/December/5849eff0_vrnd-course4-example-writeup-structure-000/vrnd-course4-example-writeup-structure-000.pdf
+
+
+# The Puzzler
+
+The Puzzler is a mobile VR game for Googld Cardboard that is modeled off of the old Simon electronic memory game. In this version, players begin in a dungeon on a mysterious island, and must solve memory puzzles in order to escape. 
+The puzzles are created with five floating orbs that the user can interact with through gaze-based raycasting--once the orbs display a pattern by lighting up in sequence, the player must match the sequence to proceed.
+
+## Outcomes
+
+This was a practice project for me, as I learn to design better VR experiences. The particular emphases here were scaling models in VR, creating the desired mood through lighting effects and sound, UI design and avoiding motion/simulator sickness. 
+
+With these goals in mind, the project was a success. 
+
+
+
+
+
+
+Video: https://youtu.be/fuv_00F-f9o
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fuv_00F-f9o" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
