@@ -4,7 +4,7 @@ The Puzzler is a mobile VR game for Googld Cardboard that is modeled off of the 
 
 The puzzles are created with five floating orbs that the user can interact with through gaze-based raycasting--once the orbs display a pattern by lighting up in sequence, the player must match the sequence to proceed.
 
-![Game Screenshot](/ProjectMaterials/ScreenShots/ss1.png)
+![Game Screenshot](/ScreenShots/ss1.png)
 
 ## Outcomes
 
@@ -18,14 +18,14 @@ The first part of the process was to create a persona for the project--an imagin
  
 ### Persona
 
-#### Bob Loblaw
-##### "If you can describe it, I can build it."
+**Bob Loblaw**
+*"If you can describe it, I can build it."*
 
-##### Age: 26
+Age: 26
 
-##### VR Experience: low
+VR Experience: low
 
-*Bob Loblaw is a 26 year old male living in Eugene, Oregon and working as a freelance web developer. Most of Bob's clients are US-based (generally small start-ups), and he has been making a comfortable living for the last few years with this business, enough that he was able to quit his day job. 
+Bob Loblaw is a 26 year old male living in Eugene, Oregon and working as a freelance web developer. Most of Bob's clients are US-based (generally small start-ups), and he has been making a comfortable living for the last few years with this business, enough that he was able to quit his day job. 
 
 Bob loves experimenting with new technology, and is motivated by emerging trends. He likes to learn new things and to feel that he is "ahead of the curve." Recently he has begun experimenting with virtual reality, in part due to his interest in gaming, but also because he sees it playing a large role in web dev in the relatively near future. His experience is low, and he is mostly experimenting with VR games and reading up on emerging web platforms and standards like AFrame.*
 
