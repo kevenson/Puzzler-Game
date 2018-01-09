@@ -1,0 +1,73 @@
+# User Test #1 - 
+Jackie Brown
+
+Questions:
+
+## How big do you feel in the space?
+
+It feels pretty good/normal, I feel maybe a bit taller than normal, but not much. 
+Scale of barrels seems right, but scale of room makes me feel a bit bigger. 
+
+## Is there anything that is difficult to see or seems out of place?
+
+Pretty comfortable. The lighting on the walls doesn't quite look like it's coming from the torches. 
+The rings look good--they look like triggers of some type. 
+The orbs/balls draw my attention but I'm not sure what they're for. 
+
+## How would you describe the mood of the space? 
+
+It feels dark, creepy, and old. I feel like there might be bodies or booze in the barrels. 
+
+--------------------
+
+# User Test #2 - UI
+Jackie Brown
+
+Questions:
+
+## Are you seeing a panel of some kind?
+
+I do see a large panel with some instructions and what looks like a button, but I'm not sure how I click it.
+
+## How large does the panel appear to be?
+
+It's pretty big. It looks like it takes up the entire room, but it doesn't look massive or overbearing to me.
+
+## What do you think this panel is for?
+
+It's pretty clearly for starting the Puzzler game. 
+
+## Can you tell what the button is for?
+
+Starting the game.
+
+## Click the button....can you tell what the next panel is for?
+
+This one would be for restarting the game. Very similar panel with the same basic layout, just different text and 
+a 'restart' button
+
+------------------
+
+# User Test #3 - Movement
+Jackie Brown
+--> Issue warning about simulator sickness first
+
+## Please hit the start button....what did you think about the pace or speed of the movement. 
+
+## Are you feeling sick in any way?
+
+## Did you notice any height differences or anything that felt off in the movement?
+
+------------------
+
+# User Test #4 - Sound & Mechanics
+Jackie Brown
+
+## Please try the application an if you feel uncomfortable at any time, simply take the headset
+off. 
+
+## What did you think about the game?
+
+## Did anything seem confusing or difficult? Explain. 
+
+
