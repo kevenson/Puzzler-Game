@@ -89,7 +89,7 @@ From my test, I learned that the scale seemed about right, but that my user felt
 
 My second user test was all about the user interface, or UI. For this test I wanted to determine whether the UI provided the necessary information for users to start and restart the game, didn't appear too large or small, and provided a generally pleasant viewing experience.
 
-![Game Screenshot](/ScreenShots/ss1.png)
+![Game Screenshot](/ScreenShots/ss1.PNG)
 
 I had my user try the app again in VR using Cardboard, and asked a simple series of questions for feedback for both the start and end UI panels. Feedback from this test suggested that the UI was configured just fine--no need for revisions.
 
