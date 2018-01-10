@@ -61,7 +61,7 @@ Sound is incredibly easy to set up in Unity. You really just need to find the ap
 
 Unity also supports scripting through C# or JS. This is an incredibly important part of the process, as scripts are what really control the gameplay in your app. Like lighting, scripting is too large a topic to handle in this write-up, but you can find information about it [here](https://docs.unity3d.com/Manual/ScriptingSection.html).
 
-My Puzzler application used scripts in C# to control the UI elements, character movement and interaction with the orbs
+My Puzzler application used scripts in C# to control the UI elements, character movement and interaction with the orbs. Much of the actual coding was actually done for me by the nice people at Google who put together the great [Google VR apk for Unity](https://developers.google.com/vr/develop/unity/get-started). This is an incredibly useful set of scripts and prefabs for your VR experiences, including a very useful prefab for a first-person VR camera. You can find more information about using the GVR APK [here](https://docs.unity3d.com/Manual/VRDevices-GoogleVR.html).
 
 ![Scripting](https://docs.unity3d.com/uploads/Main/ScriptingIntroPic.jpg)
 
@@ -107,7 +107,7 @@ To test this movement mechanic, I had my (new) user test the game and asked anot
 
 ------------------
 
-##### User Test #4 - Sound & Mechanics
+##### User Test 4 - Sound & Mechanics
 
 For my final user test, I was interested in getting feedback on the sound and overall game mechanics. The game was nearly complete at this point, so I had my user try it out and asked her a couple questions along the way.
 
@@ -118,40 +118,37 @@ She also had some nice ideas to improve on the game, like adding new levels and/
 
 ## Breakdown of Puzzler
 
+The Puzzler game is relatively straight forward to play. You begin in a mysterious place in space, surrounded by nothing but snow and icy mountains and some eery music in the background.  
+
+![Game Screenshot](/ScreenShots/ss8.png)
+
+The only semi-familiar place you have to go is into the dungeon in front of you, using the start UI panel to begin.
+
+Since this game is designed for Google Cardboard, players use a small receptacle that follows their gaze along with a device click to interact with the UI panel and other game elements.
+
+![Game Screenshot](/ScreenShots/ss13.png)
+
+Once you enter the creepy dungeon room, you'll see that it is lit by several torches, but there is nothing else there, save for a few barrels and a strange set of orbs blocking the exit.
+
+![Game Screenshot](/ScreenShots/ss10.png)
+
+After a brief moment, you'll notice that the orbs are lighting up in a particular pattern.
+
+![Game Screenshot](/ScreenShots/ss11.png)
+
+You have to match the pattern to leave the dungeon, using the same gaze-based receptacle. If you fail to match the correct pattern, it will play again and you'll have another chance to win.
+
+![Game Screenshot](/ScreenShots/ss12.png)
+
+Once you successfully match the pattern, you'll be able to leave the dungeon and restart the game.  
+
+![Game Screenshot](/ScreenShots/ss5.png)
+
+You can also find [the gameplay video here](https://www.youtube.com/embed/fuv_00F-f9o).
 
 
 ## Conclusion
 
+This was a great project that taught me a lot about VR development. I was able to create a project from scratch and use free resources available to everyone to create a fun memory game. I have lots of ideas for re-working this project to make it more immersive and engrossing...but I'll probably move onto something new first. My real passion for VR is centered around its educational potential, so an educational application (e.g. a historical reconstruction in VR) is what I'm most interested in working on next.
 
-
-
-Video: https://youtu.be/fuv_00F-f9o
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fuv_00F-f9o" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-
-
-My audience is mainly people who would like to learn more about developing VR experiences and are looking for "how-to" information.
-
-Goals:
-1. Write-up provides actionable information regarding how to create a simple VR experience,
-from start to finish.
-2. Write-up explains how to use Google VR to create experience for Cardboard.
-3. Write-up provides links for further learning.
-
-Outline:
-
-Intro
-
-Outcomes
-
-Story of the process
-
-User testing outcomes & iteration
-
-Breakdown of final piece
-
-Conclusion
-
-My site: https://kevenson.github.io/UdacityPuzzler/
-
-----DRAFT-----
-https://d17h27t6h515a5.cloudfront.net/topher/2016/December/5849eff0_vrnd-course4-example-writeup-structure-000/vrnd-course4-example-writeup-structure-000.pdf
+This is just one of many VR projects for me so stay tuned for more!
