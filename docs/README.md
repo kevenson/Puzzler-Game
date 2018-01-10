@@ -1,6 +1,6 @@
-# Puzzler Game
+# The Puzzler VR Game
 
-The Puzzler is a mobile VR game for Googld Cardboard that is modeled off of the old Simon electronic memory game. In this version, players begin in a dungeon on a mysterious island, and must solve memory puzzles in order to escape.
+The Puzzler is a mobile VR game for Googld Cardboard that is modeled off of the old Simon electronic memory game. In this version, players begin near a dungeon on a mysterious island, and must solve memory puzzles in order to escape.
 
 The puzzles are created with five floating orbs that the user can interact with through gaze-based raycasting--once the orbs display a pattern by lighting up in sequence, the player must match the sequence to proceed.
 
@@ -51,11 +51,11 @@ For the Puzzler app, we first began with a simple model or prefab that contained
 
 From here it was a relatively simple (albeit time-consuming) matter to copy and reorganize the components to build the completed structure. I also used Unity's built-in terrain editor and some materials from Unity's [Asset Store](https://www.assetstore.unity3d.com/) to build my mountainous ice-world terrain.
 
-Next up was lighting and sound. Unity has a pretty sophisticated lighting system and it can be tricky to get the hang of (I'm definitely still learning). Going into depth here is beyond the scope of this write-up, but the basic process for mobile VR is to add the appropriate lights to your scene. For example, in this app I used two separate point lights for each of my torches to try to get the right effect:
+Next up was lighting and sound. Unity has a pretty sophisticated lighting system and it can be tricky to get the hang of (I'm definitely still learning). Going into depth here is beyond the scope of this write-up, but the basic process for mobile VR is first to add the appropriate lights to your scene. For example, in this app I used two separate point lights for each of my torches to try to get the right effect:
 
 ![UnityScreenshot](/ScreenShots/ss4.jpg)
 
-Once you have those in place, for mobile VR it is also very important to pre-render or "bake" your lighting so that it won't negatively impact performance. The alternative would be to have lighting generated in real-time, which might run fine on a desktop PC that can drive an Oculus Rift, but not so much on a mobile phone driving Google Cardboard.
+Second, once you have those lights in place it is very important for mobile VR to pre-render or "bake" your lighting so that it won't negatively impact performance. The alternative would be to have lighting generated in real-time (or a mix), which might run fine on a desktop gaming PC that can drive an Oculus Rift, but not so much on a mobile phone driving Google Cardboard.
 
 Sound is incredibly easy to set up in Unity. You really just need to find the appropriate music or audio clips and add them to your scene. This app even uses spatial audio, where audio clips are bound to a particular area in the scene and so the volume will change depending on the player's position. You can read more about [spatial audio for VR here](https://docs.unity3d.com/Manual/VRAudioSpatializer.html).
 
@@ -91,7 +91,7 @@ My second user test was all about the user interface, or UI. For this test I wan
 
 ![Game Screenshot](/ScreenShots/ss1.PNG)
 
-I had my user try the app again in VR using Cardboard, and asked a simple series of questions for feedback for both the start and end UI panels. Feedback from this test suggested that the UI was configured just fine--no need for revisions.
+I had my user try the app again in VR using Cardboard, and asked a simple series of questions for feedback for both the start and end UI panels. Feedback from this test suggested that the UI was mostly fine, but I did end up revising my end UI panel to make it clear that the gamer had won.
 
 ![Game Screenshot](/ScreenShots/ss5.png)
 
@@ -99,9 +99,9 @@ I had my user try the app again in VR using Cardboard, and asked a simple series
 
 ##### User Test 3 - Movement
 
-Next up was my user test for movement within the game. This can actually be tricky in VR, since many users don't have controllers to use and certain types of movement in a VR space can trigger simulator or motion sickness in a subset of users (see [here](https://unity3d.com/learn/tutorials/topics/virtual-reality/movement-vr) for more information). There are, of course, a number of movement mechanics that can be used. My general favorite for mobile VR is ground raycasting, where you can manually teleport to locations in front of you using your line of sight.
+Next up was my user test for movement within the game. This can actually be tricky in VR, since many users don't have controllers to use and certain types of movement in a VR space can trigger simulator or motion sickness in a subset of users (see [here](https://unity3d.com/learn/tutorials/topics/virtual-reality/movement-vr) for more information). There are, of course, a number of movement mechanics that can be used. My general favorite for mobile VR is ground raycasting, where you can manually teleport to indicated locations in front of you using your line of sight to find the target location and device clicks to manually move.
 
-However, for the Puzzler application, we needed a mechanic that would allow users to move seamlessly (and linearly) through the game, so I used waypoints instead. This way, users began the game at the start point, moved to the "play" position when the hit the play button, and then automatically moved to the "finished" position when they win.
+However, for the Puzzler application, we needed a mechanic that would allow users to move seamlessly (and linearly) through the game, so I used waypoints instead with automatic movements. This way, users began the game at the start point, moved to the "play" position when the hit the play button, and then automatically moved to the "finished" position when they win.
 
 To test this movement mechanic, I had my (new) user test the game and asked another series of questions while he was playing. Thankfully, my game did not cause any nausea or discomfort, and I was also able to discover that the the movements seemed appropriate--they weren't too fast and nothing felt "off".
 
